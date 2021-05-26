@@ -165,7 +165,7 @@ if __name__ == "__main__":
     most_votes_per_settlement = voting_attributes(df_unnormalized)
     party_majority_pred_model(most_votes_per_settlement)
 
-    # Our model is highly inaccurate due to the the low number of features, values and the fact that we had to use the settlement symbol
-    # to concat the dataframes reduced the number of values even further. If I had more time I would have engineered more
+    # The model is highly inaccurate due to the the low number of features, values and the fact that I had to use the settlement symbol
+    # to concat the dataframes reduced the number of values even further. To improve I would have to engineer more
     # features that could take into accounts the votes of parties that weren't the majority in settlements, but still
-    # got a lot of votes. It was fun trying to solve it but sadly I'm short on time and I hope that this show some of my abilities.
+    # got a lot of votes. Sadly I don't have the time right now to work on it further.
